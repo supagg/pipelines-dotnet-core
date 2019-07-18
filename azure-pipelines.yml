@@ -21,7 +21,7 @@ steps:
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
 
-- task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@1
   inputs:
     command: 'build'
     projects: '**/*.csproj'
